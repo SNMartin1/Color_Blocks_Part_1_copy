@@ -1,0 +1,64 @@
+header {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 6em;
+}
+
+#instructions {
+  text-align: center;
+}
+
+.block {
+  background: lightgray;
+  width: 480px;
+  border-width: 2px;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+
+.button_red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin:10px;
+  display: inline-block;
+}
+
+.button_blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  display: inline-block;
+}
+
+.button_green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  display: inline-block;
+}
+
+.button_yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  display: inline-block;
+}
