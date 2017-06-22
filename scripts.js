@@ -19,7 +19,6 @@ $('#button_red').on('click', function(){
   //targets the red button and changes the text to show the number of times it has been clicked
   $(this).text(numClickedRed);
   $('#add_blocks').append('<div id="red_cube"></div>');
-
 });  //end of red button click function
 
 
@@ -29,7 +28,6 @@ $('#button_blue').on('click', function(){
   //targets the blue button and changes the text to show the number of times it has been clicked
   $(this).text(numClickedBlue);
   $('#add_blocks').append('<div id="blue_cube"></div>');
-
   });  //end of button click function
 
 
@@ -39,7 +37,6 @@ $('#button_green').on('click', function(){
   //targets the green button and changes the text to show the number of times it has been clicked
   $(this).text(numClickedGreen);
   $('#add_blocks').append('<div id="green_cube"></div>');
-
   });  //end of button click function
 
 
@@ -49,7 +46,6 @@ $('#button_yellow').on('click', function(){
   //targets the yellow button and changes the text to show the number of times it has been clicked
   $(this).text(numClickedYellow);
   $('#add_blocks').append('<div id="yellow_cube"></div>');
-
   });  //end of button click function
 
 }); //end of ready function
