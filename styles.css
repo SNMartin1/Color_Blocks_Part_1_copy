@@ -10,7 +10,7 @@ header {
   text-align: center;
 }
 
-.block {
+#block {
   background: lightgray;
   width: 480px;
   border-width: 2px;
@@ -18,8 +18,23 @@ header {
   margin: 0 auto;
 }
 
+#add_blocks {
+  width: 496px;
+  margin: 0 auto;
+}
+#add_blocks p {
+  width: 24%;
+  text-align: center;
+}
 
-.button_red {
+p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+
+#button_red {
   width: 100px;
   height: 100px;
   background-color: red;
@@ -28,9 +43,56 @@ header {
   border-color: black;
   margin:10px;
   display: inline-block;
+  font-size: 36px;
+  font-family: Helvetica;
 }
 
-.button_blue {
+#red_cube {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin:10px;
+  display: inline-block;
+
+}
+
+#blue_cube {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin:10px;
+  display: inline-block;
+}
+
+#green_cube {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin:10px;
+  display: inline-block;
+}
+
+#yellow_cube {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin:10px;
+  display: inline-block;
+}
+
+#button_blue {
   width: 100px;
   height: 100px;
   background-color: blue;
@@ -39,9 +101,11 @@ header {
   border-color: black;
   margin: 10px;
   display: inline-block;
+  font-size: 36px;
+  font-family: Helvetica;
 }
 
-.button_green {
+#button_green {
   width: 100px;
   height: 100px;
   background-color: green;
@@ -50,9 +114,11 @@ header {
   border-color: black;
   margin: 10px;
   display: inline-block;
+  font-size: 36px;
+  font-family: Helvetica;
 }
 
-.button_yellow {
+#button_yellow {
   width: 100px;
   height: 100px;
   background-color: yellow;
@@ -61,4 +127,6 @@ header {
   border-color: black;
   margin: 10px;
   display: inline-block;
+  font-size: 36px;
+  font-family: Helvetica;
 }
