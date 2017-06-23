@@ -48,4 +48,32 @@ $('#button_yellow').on('click', function(){
   $('#add_blocks').append('<div id="yellow_cube"></div>');
   });  //end of button click function
 
+  $('#add_blocks').on('click', '#red_cube', function() {
+    console.log("removed cube");
+    numClickedRed -= 1;
+    $('#button_red').text(numClickedRed);
+    $(this).remove();
+  }); //end of remove button and updates counter
+
+$('#add_blocks').on('click', '#blue_cube', function() {
+  console.log("removed cube");
+  numClickedBlue -= 1;
+  $('#button_blue').text(numClickedBlue);
+  $(this).remove();
+}); //end of remove button and updates counter
+
+$('#add_blocks').on('click', '#green_cube', function() {
+  console.log("removed cube");
+  numClickedGreen -= 1;
+  $('#button_green').text(numClickedGreen);
+  $(this).remove();
+}); //end of remove button and updates counter
+
+$('#add_blocks').on('click', '#yellow_cube', function() {
+  console.log("removed cube");
+  numClickedYellow -= 1;
+  $('#button_yellow').text(numClickedYellow);
+  $(this).remove();
+}); //end of remove button and updates counter
+
 }); //end of ready function
