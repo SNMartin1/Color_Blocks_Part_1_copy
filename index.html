@@ -3,18 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link href='styles.css' rel='stylesheet' type='text/css'/>
-    <script src='https://code.jquery.com/jquery-3.1.0.min.js' charset='utf-8'></script>
+    <script src='angular.js' charset='utf-8'></script>
         <script type="text/javascript" src="scripts.js"></script>
     <title></title>
   </head>
-  <body>
+  <body ng-app="myApp">
     <header>Color Blocks</header>
+    <div class="container" ng-controller="BlockController as cubes">
     <div id="instructions">
     <p id="instructions"> Click the cubes to see what happens!</p>
   </div>
       <div id="block">
+        <button class="buttons" id="button_red" ng-click="cubes.addToDomRed()">{{cubes.numClickedRed}}</button>
+        <button class="buttons" id="button_blue" ng-click="cubes.addToDomBlue()">{{cubes.numClickedBlue}}</button>
+        <button class="buttons" id="button_green" ng-click="cubes.addToDomGreen()">{{cubes.numClickedGreen}}</button>
+        <button class="buttons" id="button_yellow" ng-click="cubes.addToDomYellow()">{{cubes.numClickedYellow}}</button>
       </div>
       <div id="add_blocks">
+        <div id="{{blocks}}" ng-repeat="blocks in cubes.blocksArray track by $index">
+        </div>
       </div>
+    </div>
   </body>
 </html>
